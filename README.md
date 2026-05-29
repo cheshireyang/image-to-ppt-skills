@@ -27,6 +27,8 @@ The skill does not silently separate chart text from chart graphics. By default,
 
 ## Example Output
 
+The illustrations below are synthetic demo assets generated for this repository. They do not contain user project data.
+
 Reference effect image:
 
 ![Reference effect](examples/effects/reference_effect.png)
