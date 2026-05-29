@@ -1,0 +1,4 @@
+interface:
+  display_name: "Image To PPT Skills"
+  short_description: "Turn image references into editable PPT slides"
+  default_prompt: "Use $image-to-ppt-skills to recreate a reference effect image as PPT with generated block assets."
