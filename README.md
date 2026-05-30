@@ -2,7 +2,7 @@
 
 `image-to-ppt-skills` is a Codex skill for turning reference effect images, paper figures, screenshots, or generated image blocks into editable, validated PowerPoint slides. It is designed for academic figures, mechanism diagrams, framework slides, and data-heavy visual summaries where the final output needs both generated visual polish and practical PPT editability.
 
-![Image To PPT workflow overview](examples/effects/homepage_explainer_v2.png)
+![Image To PPT workflow overview](examples/effects/homepage_decomposition_v3.png)
 
 ## What It Does
 
@@ -27,19 +27,19 @@ The skill does not silently separate chart text from chart graphics. By default,
 
 ## Example Output
 
-The illustrations below are synthetic demo assets generated for this repository. They do not contain user project data.
+The illustrations below are synthetic demo assets generated for this repository. They show the intended decomposition process: start from one total effect image, mark complete visual regions, regenerate those regions as complete block assets, then rebuild the editable PPT layout.
 
 Reference effect image:
 
-![Reference effect](examples/effects/reference_effect_v2.png)
+![Reference effect](examples/effects/reference_effect_decomposition_v3.png)
 
 Generated block assets:
 
-![Generated block contact sheet](examples/effects/generated_block_contact_sheet_v2.png)
+![Generated block contact sheet](examples/effects/generated_block_contact_sheet_decomposition_v3.png)
 
 Editable PPT reconstruction preview:
 
-![Editable PPT preview](examples/effects/editable_ppt_preview_v2.png)
+![Editable PPT preview](examples/effects/editable_ppt_preview_decomposition_v3.png)
 
 The editable PowerPoint example is available at [`examples/effects/example_editable_slide_generic.pptx`](examples/effects/example_editable_slide_generic.pptx).
 
